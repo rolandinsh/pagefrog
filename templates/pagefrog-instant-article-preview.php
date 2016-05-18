@@ -383,7 +383,7 @@ else echo '#ffffff'; ?>;
           line-height: 21px;
           letter-spacing: 0;
           margin-top: 0px;
-          margin-bottom: 0px
+          margin-bottom: 0px;
               color: inherit;
           font-family: inherit;
       }
