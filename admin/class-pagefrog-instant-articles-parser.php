@@ -211,10 +211,18 @@ class PageFrog_Parser_InstantArticles {
                 }
                 else {
                     $figure_node = $this->dom->createElement("figure");
-                    if (preg_match("/(vine\.co|facebook\.com|instagram\.com|youtube\.com|twitter\.com)/i", $new_element_html, $matches) > 0)
+                    if (preg_match("/(vine\.co|facebook\.com|instagram\.com|youtube\.com|twitter\.com)/i", $new_element_html, $matches) > 0){
                         $figure_node->setAttribute("class", "op-social");
-                    else
-                        $figure_node->setAttribute("class", "op-interactive");
+                    }
+/**
+ Custom domains
+ * @todo make it more general for WordPress 4.5+
+ */
+                    elseif (preg_match("/(rolandinsh\.com|rolandinsh\.lv|e-art\.lv|freelancer\.lv)/i", $new_element_html, $matches) > 0){
+                        $figure_node->setAttribute("class", "op-social");
+                    }
+                    else{
+                $figure_node->setAttribute("class", "op-interactive");}
                     $figure_node->setAttribute("pagefrog-ignore", "true");
 
                     $iframe_node = $this->dom->createElement('iframe');
