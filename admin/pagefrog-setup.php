@@ -1,6 +1,6 @@
 <?php
     global $user_email;
-    get_currentuserinfo();
+    wp_get_current_user();
 ?>
 <input type="hidden" id="pagefrog-submit-contact-details-hidden-email" value="<?php echo $user_email; ?>">
 <input type="hidden" id="pagefrog-submit-contact-details-hidden-site" value="<?php echo get_site_url(); ?>">

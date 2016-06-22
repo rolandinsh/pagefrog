@@ -31,7 +31,7 @@
                     <form action="" id="pagefrog-contact-form">
                         <div class="form-group margin-top-bottom">
                             <label for="pagefrog-contact-form-name"><strong>Your Name </strong><span class="required">(required)</span></label>
-                            <input id="pagefrog-contact-form-name" name="name" type="text" class="form-control" value="<?php global $current_user; get_currentuserinfo(); if ( $current_user->display_name ) { echo $current_user->display_name; } ?>" placeholder="Clark Kent">
+                            <input id="pagefrog-contact-form-name" name="name" type="text" class="form-control" value="<?php global $current_user; wp_get_current_user(); if ( $current_user->display_name ) { echo $current_user->display_name; } ?>" placeholder="Clark Kent">
                         </div>
                         <div class="form-group margin-top-bottom">
                             <label for="pagefrog-contact-form-email"><strong>Email </strong><span class="required">(required)</span></label>
@@ -44,11 +44,11 @@
                         <div class="form-group margin-top-bottom">
                             <input type="submit" class="button block button-lg" value="Submit">
                         </div>
-                    </form>    
+                    </form>
                     <br/><br/>
                     <hr>
                     <br/>
-                    
+
                     <div class="col-sm-6">
                         <a class="button block green secondary" href="https://wordpress.org/support/plugin/pagefrog#plugin-description" target="blank"><span class="dashicons dashicons-admin-comments" style="font-size: 16px;line-height: 1.8;"></span>&nbsp;Support Forum</a>
                     </div>
@@ -76,11 +76,11 @@
                     </div>
                     <div class="col-sm-6">
                         <a class="button yellow block secondary" href="https://wordpress.org/support/view/plugin-reviews/pagefrog?filter=5#postform" target="blank"><span class="dashicons dashicons-star-filled" style="font-size: 16px;line-height: 1.5;"></span>&nbsp;Write a Review</a>
-                    </div>    
+                    </div>
                     <div class="col-sm-6">
                         <a class="button pink block secondary" href="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=V88AHXYQWWY6Q" target="blank"><span class="dashicons dashicons-heart" style="font-size: 16px;line-height: 1.8;"></span>&nbsp;Donate</a>
                     </div>
-                </div>    
+                </div>
             </div>
             <div class="row">
                 <div class="col-sm-12 margin-top-bottom">&nbsp;</div>
