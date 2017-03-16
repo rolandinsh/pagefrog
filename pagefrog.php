@@ -11,6 +11,8 @@
  * Domain Path:       /languages
  * @link              https://simplemediacode.com/
  * @since             1.0.0
+ 
+GitHub Plugin URI: https://github.com/rolandinsh/smcmobilewp
  */
 
 // If this file is called directly, abort.
