@@ -7,17 +7,17 @@
  * registers the activation and deactivation functions, and defines a function
  * that starts the plugin.
  *
- * @link              http://pagefrog.com
+ * @link              https://simplemediacode.com/
  * @since             1.0.0
  * @package           pagefrog
  *
  * @wordpress-plugin
- * Plugin Name:       Facebook Instant Articles & Google AMP Pages by PageFrog
- * Plugin URI:        http://pagefrog.com/
+ * Plugin Name:       Facebook Instant Articles & Google AMP Pages / SimpleMediaCode
+ * Plugin URI:        https://simplemediacode.com/?utm_source=smcmobilewp_pagefrog
  * Description:       The PageFrog plugin allows you to easily publish and manage your content directly from WordPress for Facebook Instant Articles (FBIA) and Google Accelerated Mobile Pages (AMP) with full support for ads and analytics.
- * Version:           1.0.9
- * Author:            PageFrog Team
- * Author URI:        http://pagefrog.com/
+ * Version:           1.0.2
+ * Author:            PageFrog Team, Rolands Umbrovskis
+ * Author URI:        https://simplemediacode.com/
  * Text Domain:       pagefrog
  * Domain Path:       /languages
  */

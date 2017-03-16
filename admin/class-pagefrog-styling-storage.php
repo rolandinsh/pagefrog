@@ -6,7 +6,7 @@
  * A class definition that can provide access to saved preferences, supplementing
  * default values for where there are none saved.
  *
- * @link        http://pagefrog.com
+ * @link        https://simplemediacode.com/
  * @since       1.0.0
  *
  * @package     pagefrog

@@ -1,9 +1,9 @@
-=== Facebook Instant Articles & Google AMP Pages by PageFrog ===
+=== Facebook Instant Articles & Google AMP Pages / SimpleMediaCode ===
 Contributors: pagefrog
 Tags: amp, facebook, instant articles, accelerated mobile pages, mobile
 Requires at least: 4.0
-Tested up to: 4.4
-Stable tag: 4.4
+Tested up to: 4.7.3
+Stable tag: 1.0.2
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 

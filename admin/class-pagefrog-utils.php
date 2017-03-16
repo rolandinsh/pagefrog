@@ -3,7 +3,7 @@
 /**
  * A collection of utilities.
  *
- * @link        http://pagefrog.com
+ * @link        https://simplemediacode.com/
  * @since       1.0.0
  *
  * @package     pagefrog

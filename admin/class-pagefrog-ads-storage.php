@@ -5,7 +5,7 @@
  * A class definition that can provide access to the saved preferences of the ads settings,
  * supplementing default values for where there are none saved.
  *
- * @link        http://pagefrog.com
+ * @link        https://simplemediacode.com/
  * @since       1.0.4
  *
  * @package     pagefrog

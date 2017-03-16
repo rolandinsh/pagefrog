@@ -3,7 +3,7 @@
 /**
  * Fired during plugin activation
  *
- * @link       http://pagefrog.com
+ * @link       https://simplemediacode.com/
  * @since      1.0.0
  *
  * @package    pagefrog

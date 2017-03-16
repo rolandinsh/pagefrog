@@ -2,7 +2,7 @@
 /**
  * A basic interface to get some data from Google Analytics.
  *
- * @link        http://pagefrog.com
+ * @link        https://simplemediacode.com/
  * @since       1.0.4
  *
  * @package     pagefrog

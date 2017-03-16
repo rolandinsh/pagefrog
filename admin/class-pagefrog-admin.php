@@ -12,7 +12,7 @@ include_once "pagefrog-ads.php"; // holds render_ads_page
 /**
  * The admin-specific functionality of the plugin.
  *
- * @link       http://pagefrog.com
+ * @link       https://simplemediacode.com/
  * @since      1.0.0
  *
  * @package    PageFrog

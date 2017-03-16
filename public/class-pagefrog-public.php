@@ -3,7 +3,7 @@
 /**
  * The public-facing functionality of the plugin.
  *
- * @link       http://pagefrog.com
+ * @link       https://simplemediacode.com/
  *
  * @package    pagefrog
  * @subpackage pagefrog/public

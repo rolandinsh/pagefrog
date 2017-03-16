@@ -9,7 +9,7 @@ include_once "integrations/parsely.php";
  * A class definition that can provide access to the saved preferences of the analytics
  * engine, supplementing default values for where there are none saved.
  *
- * @link        http://pagefrog.com
+ * @link        https://simplemediacode.com/
  * @since       1.0.4
  *
  * @package     pagefrog

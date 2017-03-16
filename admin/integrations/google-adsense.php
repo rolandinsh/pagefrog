@@ -3,7 +3,7 @@
 /**
  * A basic interface to get some data from Google AdSense.
  *
- * @link        http://pagefrog.com
+ * @link        https://simplemediacode.com/
  * @since       1.0.6
  *
  * @package     pagefrog
