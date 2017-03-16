@@ -15,12 +15,12 @@
  *
  * This class defines all code necessary to run during the plugin's activation.
  *
- * @since      1.0.0
- * @package    pagefrog
- * @subpackage pagefrog/includes
- * @author     PageFrog Team <team@pagefrog.com>
+ * @since      1.0.2
+ * @package    smcmobilewp
+ * @subpackage smcmobilewp/includes
+ * @author     Rolands Umbrovskis <info@simplemediacode.com>
  */
-class PageFrog_Activator {
+class smcMobilewpActivator {
 
 	/**
 	 * Short Description. (use period)

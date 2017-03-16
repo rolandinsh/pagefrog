@@ -76,7 +76,7 @@
         <content:encoded>
             <![CDATA[
                 <?php
-                    $template_file = PF__PLUGIN_DIR . 'templates/pagefrog-instant-article.php';
+                    $template_file = SMCMOBILEWP_PD . 'templates/pagefrog-instant-article.php';
                     load_template($template_file, false);
                 ?>
             ]]>

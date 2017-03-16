@@ -45,7 +45,7 @@ class PageFrog_Public {
 	 */
 	public function generate_instant_articles_feed() {
 
-    $rss_template = PF__PLUGIN_DIR . 'templates/pagefrog-feed.php';
+    $rss_template = SMCMOBILEWP_PD . 'templates/pagefrog-feed.php';
 		load_template($rss_template);
 	}
 

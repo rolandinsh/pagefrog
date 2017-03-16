@@ -2,10 +2,6 @@
 /*
  * The plugin bootstrap file
  *
- * This file is read by WordPress to generate the plugin information in the plugin
- * admin area. This file also includes all of the dependencies used by the plugin,
- * registers the activation and deactivation functions, and defines a function
- * that starts the plugin.
  *
  * @link              https://simplemediacode.com/
  * @since             1.0.0
@@ -27,24 +23,24 @@ if ( ! defined( 'WPINC' ) ) {
 	die;
 }
 
-define( 'PF__PLUGIN_DIR', plugin_dir_path( __FILE__ ) );
+define( 'SMCMOBILEWP_PD', plugin_dir_path( __FILE__ ) );
 
 /**
  * The code that runs during plugin activation.
- * This action is documented in includes/class-pagefrog-activator.php
+ * This action is documented in includes/smcMobilewpActivator.php
  */
 function activate_pagefrog() {
-	require_once plugin_dir_path( __FILE__ ) . 'includes/class-pagefrog-activator.php';
-	PageFrog_Activator::activate();
+	require_once plugin_dir_path( __FILE__ ) . 'includes/smcMobilewpActivator.php';
+	smcMobilewpActivator::activate();
 }
 
 /**
  * The code that runs during plugin deactivation.
- * This action is documented in includes/class-pagefrog-deactivator.php
+ * This action is documented in includes/smcMobilewpDeactivator.php
  */
 function deactivate_pagefrog() {
-	require_once plugin_dir_path( __FILE__ ) . 'includes/class-pagefrog-deactivator.php';
-	PageFrog_Deactivator::deactivate();
+	require_once plugin_dir_path( __FILE__ ) . 'includes/smcMobilewpDeactivator.php';
+	smcMobilewpDeactivator::deactivate();
 }
 
 register_activation_hook( __FILE__, 'activate_pagefrog' );

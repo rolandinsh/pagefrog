@@ -1,5 +1,5 @@
 === Facebook Instant Articles & Google AMP Pages / SimpleMediaCode ===
-Contributors: pagefrog
+Contributors: pagefrog, rolandinsh
 Tags: amp, facebook, instant articles, accelerated mobile pages, mobile
 Requires at least: 4.0
 Tested up to: 4.7.3

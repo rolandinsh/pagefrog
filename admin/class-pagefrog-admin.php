@@ -402,18 +402,18 @@ class PageFrog_Admin {
 		$preview_format = $_GET[$GLOBALS['PAGEFROG_PREVIEW_VAR']];
 
 		if ($preview_format == 'fbia') {
-		    $template_file = PF__PLUGIN_DIR . 'templates/pagefrog-instant-article-preview.php';
+		    $template_file = SMCMOBILEWP_PD . 'templates/pagefrog-instant-article-preview.php';
             load_template($template_file, false);
         }
         else if ($preview_format == 'amp') {
             $this->amp_render_template( $post_id );
         }
         else if ($preview_format == 'raw') {
-            $template_file = PF__PLUGIN_DIR . 'templates/pagefrog-preview-raw.php';
+            $template_file = SMCMOBILEWP_PD . 'templates/pagefrog-preview-raw.php';
             load_template($template_file, false);
         }
         else if ($preview_format == 'fbia_raw') {
-            $template_file = PF__PLUGIN_DIR . 'templates/pagefrog-instant-article-raw.php';
+            $template_file = SMCMOBILEWP_PD . 'templates/pagefrog-instant-article-raw.php';
             load_template($template_file, false);
         }
 
