@@ -127,7 +127,7 @@ class PageFrog_Parser_InstantArticles {
       */
     public function createEmbedElement($src_slug, $convert_function) {
         $figure_node = $this->dom->createElement('figure');
-        $figure_node->setAttribute("class", "op-social");
+        $figure_node->setAttribute("class", "op-interactive");
         $this->$convert_function($figure_node, $src_slug);
         return $figure_node;
     }
@@ -200,7 +200,7 @@ class PageFrog_Parser_InstantArticles {
                 if (preg_match("/(youtube\.com)/i", $new_element_html, $matches) > 0) {
                     // handle YouTube case - don't duplicate the iframes!
                     $figure_node = $this->dom->createElement("figure");
-                    $figure_node->setAttribute("class", "op-social");
+                    $figure_node->setAttribute("class", "op-interactive");
                     $figure_node->setAttribute("pagefrog-ignore", "true");
                     $figure_node->setAttribute("pagefrog-special", "youtube");
 
@@ -212,6 +212,7 @@ class PageFrog_Parser_InstantArticles {
                 else {
                     $figure_node = $this->dom->createElement("figure");
                     if (preg_match("/(vine\.co|facebook\.com|instagram\.com|youtube\.com|twitter\.com)/i", $new_element_html, $matches) > 0)
+//                        $figure_node->setAttribute("class", "op-interactive");
                         $figure_node->setAttribute("class", "op-social");
                     else
                         $figure_node->setAttribute("class", "op-interactive");
