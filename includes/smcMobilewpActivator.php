@@ -1,20 +1,11 @@
 <?php
 
 /**
- * Fired during plugin activation
- *
- * @link       https://simplemediacode.com/
- * @since      1.0.0
- *
- * @package    pagefrog
- * @subpackage pagefrog/includes
- */
-
-/**
  * Fired during plugin activation.
  *
  * This class defines all code necessary to run during the plugin's activation.
  *
+ * @link       https://simplemediacode.com/
  * @since      1.0.2
  * @package    smcmobilewp
  * @subpackage smcmobilewp/includes
@@ -24,9 +15,9 @@ class smcMobilewpActivator
 {
 
     /**
-     * Short Description. (use period)
+     * Fired during plugin activation.
      *
-     * Long Description.
+     * This class defines all code necessary to run during the plugin's activation.
      *
      * @since    1.0.0
      */
