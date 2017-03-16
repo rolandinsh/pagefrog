@@ -1,4 +1,5 @@
 <?php
+
 /*
  * The plugin bootstrap file
  *
@@ -19,38 +20,40 @@
  */
 
 // If this file is called directly, abort.
-if ( ! defined( 'WPINC' ) ) {
-	die;
+if (!defined('WPINC')) {
+    die;
 }
 
-define( 'SMCMOBILEWP_PD', plugin_dir_path( __FILE__ ) );
+define('SMCMOBILEWP_PD', plugin_dir_path(__FILE__));
 
 /**
  * The code that runs during plugin activation.
  * This action is documented in includes/smcMobilewpActivator.php
  */
-function activate_pagefrog() {
-	require_once plugin_dir_path( __FILE__ ) . 'includes/smcMobilewpActivator.php';
-	smcMobilewpActivator::activate();
+function activate_pagefrog()
+{
+    require_once plugin_dir_path(__FILE__) . 'includes/smcMobilewpActivator.php';
+    smcMobilewpActivator::activate();
 }
 
 /**
  * The code that runs during plugin deactivation.
  * This action is documented in includes/smcMobilewpDeactivator.php
  */
-function deactivate_pagefrog() {
-	require_once plugin_dir_path( __FILE__ ) . 'includes/smcMobilewpDeactivator.php';
-	smcMobilewpDeactivator::deactivate();
+function deactivate_pagefrog()
+{
+    require_once plugin_dir_path(__FILE__) . 'includes/smcMobilewpDeactivator.php';
+    smcMobilewpDeactivator::deactivate();
 }
 
-register_activation_hook( __FILE__, 'activate_pagefrog' );
-register_deactivation_hook( __FILE__, 'deactivate_pagefrog' );
+register_activation_hook(__FILE__, 'activate_pagefrog');
+register_deactivation_hook(__FILE__, 'deactivate_pagefrog');
 
 /**
  * The core plugin class that is used to define internationalization,
  * admin-specific hooks, and public-facing site hooks.
  */
-require plugin_dir_path( __FILE__ ) . 'includes/class-pagefrog.php';
+require plugin_dir_path(__FILE__) . 'includes/class-pagefrog.php';
 
 /**
  * Begins execution of the plugin.
@@ -61,10 +64,11 @@ require plugin_dir_path( __FILE__ ) . 'includes/class-pagefrog.php';
  *
  * @since    1.0.0
  */
-function run_pagefrog() {
+function run_pagefrog()
+{
 
-	$plugin = new PageFrog();
-	$plugin->run();
-
+    $plugin = new PageFrog();
+    $plugin->run();
 }
+
 run_pagefrog();
